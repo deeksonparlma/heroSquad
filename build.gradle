@@ -1,9 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-archivesBaseName = "hero"
+archivesBaseName = "herosquad"
 version = '1.0'
-applicationName = "hero"
+applicationName = "herosquad"
 mainClassName = "App"
 
 group 'com.hero'
@@ -21,3 +21,8 @@ dependencies {
     compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
     compile 'com.sparkjava:spark-template-velocity:2.5.5'
 }
+run {
+    standardInput = System.in
+}
+defaultTasks = ['clean']
+task stage(dependsOn: ['clean', 'installApp'])
