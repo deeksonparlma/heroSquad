@@ -1,6 +1,10 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
+apply plugin: 'application'
+
+archivesBaseName = "hero"
+version = '1.0'
+applicationName = "hero"
+mainClassName = "App"
 
 group 'com.hero'
 version '1.0-SNAPSHOT'
