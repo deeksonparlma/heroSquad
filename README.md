@@ -31,7 +31,7 @@ cd build/classes/java/main
 java App
 ```
 
-# BDD
+## BDD
 | Behaviour |  output |
 | --------- | ------- |
 |           |         |
