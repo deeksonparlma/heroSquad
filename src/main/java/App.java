@@ -17,13 +17,15 @@ public class App {
             port = 4567;
         }
 
+        port(port);
+
         //layout template as a string//
-        String layout = "templates/layout.vtl";
+        String layout = "public/templates/layout.vtl";
 
         //routes//
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            model.put("template", "templates/index.vtl");
+            model.put("template", "public/templates/index.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
     }
