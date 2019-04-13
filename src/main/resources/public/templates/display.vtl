@@ -1,0 +1,16 @@
+<center>
+  <h3 class="title">My Hero Squad</h3>
+</center>
+
+#if ($heroes)
+  <ol class="heroes">
+    #foreach ($hero in $heroes)
+      <li>$hero.getSuperPower</li>
+    #end
+  </ol>
+#else
+  <ol>
+    <li>Dickson - Attack</li>
+    <li>Joel - Defence</li>
+  </ol>
+#end
