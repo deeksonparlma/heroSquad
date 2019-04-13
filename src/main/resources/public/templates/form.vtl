@@ -1,10 +1,20 @@
-<form action="/display" method="post">
-  <label for="description">Hero name</label>
-  <input id="heroname" name="heroname" type="text">
-  <select>
-    <option>one<option>
-    <option>two<option>
-    <option>three<option>
-  </select><br>
-  <button type="submit" class="btn btn-info">Add Hero</button>
-</form>
+<br><br><br>
+<div class="form-group">
+  <center>
+    <form class="form-group" action="/display"  method="post">
+    <h3>Heroes form</h3>
+      <em>Add your heroes to your squad</em>
+      <br><br><br>
+      <label for="">Hero name</label>
+      <input type="text" class="form-control" name="name"  placeholder="Hero name"><br>
+      <label for="">Cause in the Squad</label>
+      <select class="form-control" name="cause">
+          <option value="Cause one">Cause one</option>
+          <option value="Cause two">Cause two</option>
+          <option value="Cause three">Cause three</option>
+          <option value="Cause four">Cause four</option>
+      </select><br><br>
+      <button type="submit" class="btn btn-info" name="button">Add Hero</button><br><br>
+    </form>
+  </center>
+</div>
