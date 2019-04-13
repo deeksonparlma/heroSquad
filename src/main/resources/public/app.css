@@ -1,0 +1,28 @@
+body{
+background-image:url("../images/background.jpg");
+height:600px;
+}
+#heroes{
+ width:200px;
+ height:50px;
+}
+#hero{
+ width:100px;
+ height:50px;
+}
+form{
+width:50%;
+background-color:#8785;
+border-radius:30px;
+}
+.form-control{
+ width:80%;
+}
+.title{
+color:blue;
+font-size:30px;
+}
+li{
+color:white;
+font-size:20px;
+}
