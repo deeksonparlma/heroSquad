@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a44dcaa7-15c3-4ec3-860c-bbcd9bb2e047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PingPong/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PingPong/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PingPong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PingPong/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PingPong/src/main/java/PingPong/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PingPong/src/main/java/PingPong/App.java" afterDir="false" />
@@ -102,7 +98,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/public/templates/form.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="109">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -534,7 +530,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/templates/form.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="109">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
