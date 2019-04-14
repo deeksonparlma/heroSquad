@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a44dcaa7-15c3-4ec3-860c-bbcd9bb2e047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Herotest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PingPong/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PingPong/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PingPong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PingPong/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PingPong/src/main/java/PingPong/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PingPong/src/main/java/PingPong/App.java" afterDir="false" />
@@ -24,16 +27,6 @@
       <change beforePath="$PROJECT_DIR$/../heroSquad/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../heroSquad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../heroSquad/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../heroSquad/src/main/java/Hero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Squad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/display.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/display.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/form.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/form.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/layout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/loaded.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/loaded.vtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../letter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../letter/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../toDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../toDoList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../toDoList/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../toDoList/src/main/java/App.java" afterDir="false" />
@@ -89,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Herotest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,13 +226,6 @@
               <item name="herosquad" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="hero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="herosquad" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -539,7 +525,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Herotest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
