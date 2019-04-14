@@ -1,28 +1,68 @@
-body{
+#top{
 background-image:url("../images/background.jpg");
-height:600px;
+height:500px;
+background-attachment:fixed;
+width:100%;
+padding-top:0px;
+}
+#title{
+color:white;
+font-size:80px;
+background-color:#8765;
+}
+#footer{
+background-color:#8765;
+}
+main{
+background-image:url("../images/squad-logo.png");
+
+}
+#about{
+ height:200px;
+ padding-top:50px;
 }
 #heroes{
  width:200px;
  height:50px;
+ font-size:15px;
 }
 #hero{
- width:100px;
+ width:140px;
  height:50px;
+ font-size:15px;
 }
 form{
 width:50%;
-background-color:#8785;
+background-color:#988595;
 border-radius:30px;
 }
 .form-control{
  width:80%;
 }
-.title{
-color:blue;
-font-size:30px;
+#main{
+height:600px;
+background-image:url("../images/squad-logo.png");
 }
+
 li{
-color:white;
+color:black;
 font-size:20px;
+}
+body{
+width:100%;
+}
+#c{
+color:black;
+font-size:40px;
+width:100%;
+background-color:#5674;
+}
+#cont{
+padding-top:150px;
+}
+#lineUp{
+background-color:#3457;
+height:300px;
+font-size:15px;
+width:50%;
 }

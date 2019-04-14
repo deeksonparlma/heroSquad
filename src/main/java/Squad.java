@@ -1,5 +1,12 @@
 public class Squad {
-    private int maxSize;
-    private String name;
-    private String Dedication;
+    private String mCause;
+    public Squad(String cause) {
+
+        mCause = cause;
+    }
+
+    public String getCause() {
+
+        return mCause;
+    }
 }

@@ -1,16 +1,16 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Hero {
-    private String mSuperPower;
-    private static List<Hero> instances = new ArrayList<Hero>();
+    private String mDescription;
+    public String mCause;
 
-    public Hero(String superPower){
-        mSuperPower = superPower;
-        instances.add(this);
+    public Hero(String description) {
+        mDescription = description;
     }
 
-    public String getSuperPower() {
-        return mSuperPower;
+    public String getDescription(){
+        return mDescription;
+    }
+    public String getCause() {
+
+        return mCause;
     }
 }

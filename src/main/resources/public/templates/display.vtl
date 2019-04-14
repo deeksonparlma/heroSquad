@@ -1,16 +1,24 @@
-<center>
-  <h3 class="title">My Hero Squad</h3>
-</center>
+<div id="main">
+    <div id="c">
+        <center>
+        <a href="/form"><button class="btn btn-info">Add Another Hero to the Squad</button></a>
+        <span class="squad">My Hero Squad</span>
+        </center>
+    </div>
+    <div class="container">
+    <center>
+        <div id="lineUp">
 
-#if ($heroes)
-  <ol class="heroes">
-    #foreach ($hero in $heroes)
-      <li>$hero.getSuperPower</li>
-    #end
-  </ol>
-#else
-  <ol>
-    <li>Dickson - Attack</li>
-    <li>Joel - Defence</li>
-  </ol>
-#end
+            #if ($heros)
+                <ol>
+                 #foreach ($hero in $heros)
+                <li>$hero.getDescription() </li>
+                #end
+                </ol>
+            #else
+         <p>No Heroes added! Here's the form to add them up: <a href="/form">Heroes form</a></p>
+            #end
+        </div>
+        </center>
+    <div>
+</div>
