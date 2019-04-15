@@ -11,7 +11,7 @@ This a java application that allows a user to recruit a well-balanced team of su
 * Go to the projects [repository](https://github.com/deeksonparlma/herosquad)
 * Clone the project
 ```
-git clone https://github.com/deeksonparlma/heroSquad.git
+git clone https://github.com/deeksonparlma/herosquad.git
 ```
 * Install gradle
 ```
