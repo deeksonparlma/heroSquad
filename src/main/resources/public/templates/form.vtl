@@ -9,18 +9,18 @@
 
 
       <label for="">Hero name</label>
-      <input type="text" class="form-control" id="name" name="name"  placeholder="Hero name"><br>
+      <input type="text" class="form-control" id="name" name="name"  placeholder="Hero name" required><br>
       <label for="">Purpose of the Squad</label>
       <!--cause should be in the Squad class -->
 
-      <select class="form-control" name="cause" id="cause">
+      <select class="form-control" name="cause" id="cause" required>
           <option value="--select cause--">--select cause--</option>
           <option value="Protect the city">Protect the city</option>
           <option value="Capture pick-pocketers">Capture pick-pocketers</option>
           <option value="Conserve environment">Conserve environment</option>
       </select><br>
       <label for="">Maximum heroes in the group</label>
-       <input type="number" class="form-control" id="max" name="max"  placeholder="Max in group"><br>
+       <input type="number" class="form-control" id="max" name="max"  placeholder="Max in group" required><br>
 
       <br>
       <button type="submit" class="btn btn-info" name="button">Add Hero</button>
