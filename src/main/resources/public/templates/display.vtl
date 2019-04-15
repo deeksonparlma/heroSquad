@@ -10,11 +10,16 @@
         <div id="lineUp">
 
             #if ($heros)
-                <ol>
+                <table class="table-hover table-bordered">
+                <th>Hero name</th>
+                <th>Cause of Squad</th>
                  #foreach ($hero in $heros)
-                <li>$hero.getDescription() </li>
+                 <tr>
+                <td>$hero.getName() </td>
+                <td>- $hero.getCause()</td>
+                </tr>
                 #end
-                </ol>
+                </table>
             #else
          <p>No Heroes added! Here's the form to add them up: <a href="/form">Heroes form</a></p>
             #end

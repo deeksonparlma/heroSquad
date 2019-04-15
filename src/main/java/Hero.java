@@ -1,13 +1,14 @@
 public class Hero {
-    private String mDescription;
+    private String mName;
     public String mCause;
 
-    public Hero(String description) {
-        mDescription = description;
+    public Hero(String name,String cause) {
+        mName = name;
+        mCause=cause;
     }
 
-    public String getDescription(){
-        return mDescription;
+    public String getName(){
+        return mName;
     }
     public String getCause() {
 

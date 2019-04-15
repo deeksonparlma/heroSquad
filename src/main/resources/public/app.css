@@ -63,6 +63,27 @@ padding-top:150px;
 #lineUp{
 background-color:#3457;
 height:300px;
-font-size:15px;
 width:50%;
 }
+.table-hover{
+font-size:38px;
+}
+table{
+width:100%;
+
+}
+
+th{
+font-size:20px;
+}
+td{
+font-size:20px;
+}
+tr{
+font-size:20px;
+}
+table td {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
