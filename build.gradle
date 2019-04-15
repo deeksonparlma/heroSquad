@@ -25,4 +25,4 @@ dependencies {
 //    standardInput = System.in
 //}
 defaultTasks = ['clean']
-task stage(dependsOn: ['clean', 'installApp'])
+task stage(dependsOn: ['clean', 'installDist'])
