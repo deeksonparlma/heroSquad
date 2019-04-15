@@ -8,7 +8,7 @@ This a java application that allows a user to recruit a well-balanced team of su
 * Java
 * Gradle
 ## Setup and Installation requirements
-* Go to the projects [repository](https://github.com/deeksonparlma/heroSquad)
+* Go to the projects [repository](https://github.com/deeksonparlma/herosquad)
 * Clone the project
 ```
 git clone https://github.com/deeksonparlma/heroSquad.git
