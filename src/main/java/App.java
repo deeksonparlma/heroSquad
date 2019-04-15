@@ -60,15 +60,17 @@ public class App {
             Map<String, Object> model = new HashMap<String, Object>();
 
             ArrayList<Hero> heros = request.session().attribute("heros");
+
             if (heros == null) {
                 heros = new ArrayList<Hero>();
                 request.session().attribute("heros", heros);
             }
 
             String name = request.queryParams("name");
+            String max = request.queryParams("max");
             String cause = request.queryParams("cause");
-            Hero newTask = new Hero(name,cause);
-            heros.add(newTask);
+            Hero newHero = new Hero(name,cause,max);
+            heros.add(newHero);
 
             model.put("template", "public/templates/loaded.vtl");
             return new ModelAndView(model, layout);

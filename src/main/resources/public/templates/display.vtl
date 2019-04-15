@@ -13,10 +13,12 @@
                 <table class="table-hover table-bordered">
                 <th>Hero name</th>
                 <th>Cause of Squad</th>
+                <th>Max Squad members</th>
                  #foreach ($hero in $heros)
                  <tr>
                 <td>$hero.getName() </td>
                 <td> $hero.getCause()</td>
+                <td> $hero.getMax()</td>
                 </tr>
                 #end
                 </table>
