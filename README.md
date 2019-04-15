@@ -33,13 +33,11 @@ java App
 
 ## BDD
 
-| Behaviour |  output |
-| --------- | ------- |
-|           |         |
-|           |         |
-|           |         |
-|           |         |
-|           |         |
+| Test               |       input       |     output       |
+| ------------------ | ----------------  | ---------------  |
+| Hero has a name    |      Dickson      |    Dickson       |
+| Squad has a cause  |  Protect the city | protect the city |
+
 ## contact
 to contact me [email me](dicksonparlma@gmail.com)
 ## Technologies used:

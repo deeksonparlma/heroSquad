@@ -320,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Herotest.Hero_gets_cause">
+  <component name="RunManager" selected="Gradle.Squadtest.squad_gets_cause">
     <configuration name="Herotest.Hero_gets_cause" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -347,6 +347,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;Herotest.Hero_gets_name&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Squadtest.squad_gets_cause" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Squadtest.squad_gets_cause&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -399,30 +419,13 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="herosquad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Squadtest.squad_gets_cause" />
         <item itemvalue="Gradle.Herotest.Hero_gets_cause" />
         <item itemvalue="Gradle.Herotest.Hero_gets_name" />
         <item itemvalue="Gradle.herosquad [run]" />
         <item itemvalue="Gradle.herosquad [dependencies]" />
-        <item itemvalue="Gradle.herosquad" />
       </list>
     </recent_temporary>
   </component>
