@@ -39,6 +39,7 @@ border-radius:30px;
 .form-control{
  width:80%;
 }
+
 #main{
 height:600px;
 background-image:url("../images/squad-logo.png");
@@ -73,17 +74,16 @@ width:100%;
 
 }
 
-th{
-font-size:20px;
-}
-td{
-font-size:20px;
-}
-tr{
-font-size:20px;
+table th {
+    font-size: 1rem;
+    font-weight: 400;
 }
 table td {
     font-size: 2rem;
     font-weight: 300;
 }
 
+.panel{
+width:50%;
+background-color:#DDDBDF;
+}
